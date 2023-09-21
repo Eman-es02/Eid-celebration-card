@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Recipes</title>
+    <meta charset="utf-8">
+    <style>
+        .float_center {
+            float: right;
+            position: relative;
+            left: -50%;
+            text-align: center;
+            width: 55%;
+        }
+
+        .float_center>.child {
+            position: relative;
+            left: 50%;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+
+        }
+
+        ul li {
+            display: inline-block;
+            list-style-type: none;
+            margin: 1.4em;
+        }
+
+        ul a {
+            display: block;
+            height: 26px;
+            line-height: 26px;
+            text-decoration: none;
+            color: white;
+            padding: 10px 19px;
+            background-color: rgba(187,24,17,0.9);
+            border-radius: 12px;
+            transition-duration: 0.4s;
+            font-family: "Candara", Arial, Serif;
+        }
+
+        ul a:hover {
+            background-color: 	rgba(237,165,7,1.000);
+            color: white
+        }
+
+        body {
+            background-color: #F6E8DF;
+            text-align: center;
+            background-image: url(redpowder.png),url(spices\ topL.png),url(spices\ topR.png), url(spices\ bottomL.png), url(spices\ botttomR.png);
+            background-size: 900px, 400px, 400px, 400px, 400px;
+            background-repeat: repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+            background-position: center, left top ,right top, left bottom, right bottom, center ;
+            float: left, right, left, right;
+        }
+
+        h2 {
+            color: #990000;
+            font-size: 50px;
+            text-align: center;
+            font-family: "Sakkal Majalla", Arial, Serif;
+            letter-spacing: 1px;
+        }
+
+        li.first {
+            color: #034603;
+            text-align: left;
+            font-family: "Cambria", serif;
+            text-align: left;
+            letter-spacing: 0.5px;
+            line-height: 1.5;
+            word-spacing: 1.5px;
+            margin-left: 10%;
+            margin-right: 10%;
+            font-weight: bold;
+        }
+
+        .img {
+            object-position: center;
+            width: 300px;
+            height: 300px;
+            border: 7px solid #F6E8DF;
+            border-radius: 20px;
+            margin: 20px;
+            margin-top: -2%;
+        }
+
+        ul.first {
+            list-style-type: square;
+            text-align: left;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .card {
+            background-color: rgba(217, 126, 126, 0.6);
+            padding: 20px;
+            margin-top: 20px;
+            float: left;
+        }
+    </style>
+
+</head>
+
+<body>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="recipes.html">Food and Delicacies</a></li>
+        <li><a href="activities.html">Activities and Practices</a></li>
+    </ul>
+
+    
+    
+
+    <div>
+        <div class="row">
+            <div class="float_center">
+                <div class="child">
+                    <div class="card">
+                        <h2>
+                            Bubur Lambuk
+                        </h2>
+                        <img src="Bubur.png" alt="Bubur Lambuk" class="img">
+                        <ul class="first">
+                            <li class="first">
+                                A creamy porridge made by adding meat, coconut milk, flavoured spices and condiments.
+                            </li>
+                            <li class="first">
+                                Huge drums of bubur lambuk are made early in the morning to be distributed among the
+                                Malay communities in the evening by the mosque’s committee.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="row">
+            <div class="float_center">
+                <div class="child">
+                    <div class="card">
+                        <h2>
+                            Ketupat
+                        </h2>
+                        <img src="Ketupat.png" alt="Ketupat" class="img">
+                        <ul class="first">
+                            <li class="first">
+                                Classic serving dish during Eid in Malaysia where rice cake is bundled in coconut leaves
+                                woven into a form of triangular shape.
+                            </li>
+                            <li class="first">
+                                Serve along with a side called rendang.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="row">
+            <div class="float_center">
+                <div class="child">
+                    <div class="card">
+                        <h2>
+                            Rendang Daging
+                        </h2>
+                        <img src="Rendang.png" alt="Rendang" class="img">
+                        <ul class="first">
+                            <li class="first">
+                                A kind of dry beef curry serve as a side with ketupat.
+                            </li>
+                            <li class="first">
+                                A popular and loved dish alongside with ketupat to be listed as a Malaysian heritage
+                                dish.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
